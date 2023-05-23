@@ -65,6 +65,7 @@ function App() {
 
   function newGame() {
     setEndGame(false);
+    setVisibleWord({word: null, background: 'white'});
     setErrors(0);
     getNewWord();
   }
